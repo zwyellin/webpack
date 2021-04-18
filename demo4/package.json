@@ -1,0 +1,35 @@
+{
+  "name": "demo4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server"
+  },
+  "bin": "bin/foo",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "dart-sass": "^1.25.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^7.3.0",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

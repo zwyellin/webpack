@@ -1,0 +1,25 @@
+.box {
+    color:red;
+    border-radius: 10px;
+}
+.box > div {
+    width:72px;
+    height: 72px;
+    float:left;
+}
+.img1 {
+    background: url('../assets/images/1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.img2 {
+    background: url('../assets/images/2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.img3 {
+    background: url('../assets/images/3.png') no-repeat;
+    background-size: 100% 100%;
+}
+.img4 {
+    background: url('../assets/images/4.png') no-repeat;
+    background-size: 100% 100%;
+}

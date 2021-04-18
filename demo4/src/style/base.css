@@ -1,0 +1,24 @@
+
+@value v-primary: #BF4040;
+
+body {
+   background: red;
+}
+.f-12 {
+    font-size: 12px;
+}
+:local(.a1) {
+    background: red;
+}
+:global .b1 {
+    color: green;
+}
+:local .a2 {
+color: green;
+}
+:local(.a3 .a30) {
+color: green;
+}
+:local .a4 .a40 :global(.a5) {
+color: blue;
+}
